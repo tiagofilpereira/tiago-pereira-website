@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;;
+    line-height: 1.6em;
+}
+
+h1{
+    font-size: 8rem;
+}
+h2{
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 3em;
+}
+p{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 1.6rem 10rem;
+    text-align: start;
+    
+}
+small{
+    opacity: 55%;
+}
+
+h3{
+    margin: 2em 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title-work{
+    margin-bottom: 1em;
+}
+.txt-work{
+    margin-bottom: 6em;
+}
+
+.below{
+    margin-top:5em ;
+}
+
+header,
+section{
+    height: 100vh;
+    
+}
+
+.main-page,
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+    .display{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .display p a{
+        text-decoration: none;
+        color: #2A4C69;
+    }
+
+.one,
+.two,
+.three{
+    margin:0em 10em;
+
+}
+
+
+
+nav{
+    position:fixed;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    padding: 1rem;
+    background-color: #fff;
+}
+    ul li {
+        display: inline-block;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0.3rem 1rem;
+        border-radius: 1em;
+        background-color:#fff;
+        color: #2A4C69;
+    }
+        ul li a:hover{
+            background-color: #E5F3FF;
+            color: #fff;
+            opacity: 85%;
+        }
+@media(max-width:70em){
+    .one,
+    .two,
+    .three{
+        margin: 0;
+        
+        
+    }
+
+    h1{
+        font-size: 4em;
+        font-weight: 700;
+    }
+
+    h2{
+        margin-bottom: 1.6em;
+    }
+
+    p{
+        font-size: 1.2rem;
+        margin: 0.5em 0.2em;
+        text-align: center;
+    }
+
+    .display{
+        flex-direction: column;
+    }
+
+}
+
+
+@media(max-width:40em){
+    section{
+        height: 70vh;
+        margin: 0;
+    }
+
+    .one{
+        height: 130vh;
+    }
+    .two{
+        height: 120vh;
+    }
+
+    }
+
+    nav{
+        padding: 1rem;
+        justify-content: left;
+    }
+
+    ul li a{
+        padding: 0.3rem;
+        margin: 0;
+        margin-right: 0.6rem;
+        
+    }
+
+/*imagens*/
+img{
+    max-width: 10rem;
+}
+
+.instagram-logo{
+    max-width: 2rem;
+}
+
+/*colors*/
+
+        .one{
+            background-color: #f0f8ff;
+        }
+        .two{
+            background-color: #E5F3FF;
+        }
+        .three{
+            background-color: #f0f8ff;
+        }
+
+
+
+
